@@ -32,6 +32,6 @@ class Book
   end
 
   def turn_page
-
+    @page = @page.succ
   end
 end
